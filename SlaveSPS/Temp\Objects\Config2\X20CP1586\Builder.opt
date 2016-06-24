@@ -1,0 +1,7 @@
+AsHwd	 "$(AS_PROJECT_CONFIG_PATH)/Hardware.hw" -v V1.00.0 -S "X20CP1586" -o "$(AS_CPU_PATH)/ashwd.br" -T SG4 -B D4.24 -P "$(AS_PROJECT_PATH)" -c "$(AS_CONFIGURATION)" -zip -s X20CP1586 -hwd
+AsFw	 "$(AS_PROJECT_CONFIG_PATH)/Hardware.hw" -v V1.00.0 -S "X20CP1586" -o "$(AS_CPU_PATH)/asfw.br" -T SG4 -B D4.24 -P "$(AS_PROJECT_PATH)" -c "$(AS_CONFIGURATION)" -zip -s X20CP1586 -firmware
+arconfig	"$(AS_PROJECT_CPU_PATH)/IoMap.iom"  -arconfig -c Config2 -v V1.00.0 -S "X20CP1586" -o "$(AS_CPU_PATH)/arconfig.br" "$(AS_CPU_PATH)/ChannelConfiguration.xml" "$(AS_CPU_PATH)/HardwareConfiguration.xml" "$(AS_CPU_PATH)/ReActionTechnologyConfiguration.xml" -T SG4  -B D4.24 -P "$(AS_PROJECT_PATH)" -s "Config2"
+sysconf	 -c Config2 -sysconf -S "X20CP1586" -o "$(AS_CPU_PATH)/sysconf.br" -T SG4  -B D4.24 -P "$(AS_PROJECT_PATH)" -s "Config2"
+iomap	 -m "$(AS_CPU_PATH)/ConfigInfo.cfi" -g "$(AS_TEMP_PATH)/Objects/Declarations.lst" -x "$(AS_CPU_PATH)/ChannelConfiguration.xml" -v V1.00.0 -f "$(AS_CPU_PATH)" -iomap -o "$(AS_CPU_PATH)/iomap.br" -T SG4  -B D4.24 -P "$(AS_PROJECT_PATH)" -s "Config2.X20CP1586"
+Role	 "$(AS_PROJECT_CPU_PATH)/UserRoleSystem/Role.role" -o "$(AS_CPU_PATH)/Role.br" -zip -B D4.24 -z n.d
+User	 "$(AS_PROJECT_CPU_PATH)/UserRoleSystem/User.user" -o "$(AS_CPU_PATH)/User.br" -zip -B D4.24 -z n.d

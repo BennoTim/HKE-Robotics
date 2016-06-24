@@ -1,0 +1,152 @@
+PROGRAM _CYCLIC
+(* @LANGUAGE := 'sfc' *)
+INITIAL_STEP Step1:
+(* @LANGUAGE := 'st' *)
+xiTripod_fertig := FALSE;
+ioBandgeschwindigkeit := 15000;
+xoSchieber := true;
+END_STEP
+(* @SFCMAXTIME := '' *)
+(* @SFCMINTIME := '' *)
+(* @SFCCOMMENT := '' *)
+TRANSITION FROM Step1 TO Schieber:=
+TRUE
+END_TRANSITION
+(* @SFCNOJUMP := 'Schieber' *)
+STEP Schieber:
+END_STEP
+(* @SFCMAXTIME := '' *)
+(* @SFCMINTIME := '' *)
+(* @SFCCOMMENT := '' *)
+ENTRY_ACTION
+(* @LANGUAGE := 'st' *)
+xoSchieber := FALSE;
+END_ACTION
+EXIT_ACTION
+(* @LANGUAGE := 'st' *)
+xoSchieber := TRUE;
+END_ACTION
+TRANSITION FROM Schieber TO Position1:=
+xiSchieber
+END_TRANSITION
+(* @SFCNOJUMP := 'Position1' *)
+STEP Position1:
+(* @LANGUAGE := 'st' *)
+xoSchieber := TRUE;
+(* TODO: Insert Program *)
+END_STEP
+(* @SFCMAXTIME := '' *)
+(* @SFCMINTIME := '' *)
+(* @SFCCOMMENT := '' *)
+ENTRY_ACTION
+(* @LANGUAGE := 'st' *)
+xoBand := TRUE;
+END_ACTION
+EXIT_ACTION
+(* @LANGUAGE := 'st' *)
+xoBand := FALSE;
+END_ACTION
+TRANSITION FROM Position1 TO Montage1:=
+xiStopp1
+END_TRANSITION
+(* @SFCNOJUMP := 'Montage1' *)
+STEP Montage1:
+(* @LANGUAGE := 'st' *)
+xoSchieber := TRUE;
+(* TODO: Insert Program *)
+END_STEP
+(* @SFCMAXTIME := '' *)
+(* @SFCMINTIME := '' *)
+(* @SFCCOMMENT := '' *)
+TRANSITION FROM Montage1 TO Position2:=
+xiTripod_fertig
+END_TRANSITION
+(* @SFCNOJUMP := 'Position2' *)
+STEP Position2:
+(* @LANGUAGE := 'st' *)
+xoSchieber := TRUE;
+(* TODO: Insert Program *)
+END_STEP
+(* @SFCMAXTIME := '' *)
+(* @SFCMINTIME := '' *)
+(* @SFCCOMMENT := '' *)
+ENTRY_ACTION
+(* @LANGUAGE := 'st' *)
+xoBand:= TRUE;
+END_ACTION
+EXIT_ACTION
+(* @LANGUAGE := 'st' *)
+xoBand := FALSE;
+END_ACTION
+TRANSITION FROM Position2 TO Montage2:=
+xiStopp2
+END_TRANSITION
+(* @SFCNOJUMP := 'Montage2' *)
+STEP Montage2:
+(* @LANGUAGE := 'st' *)
+xoSchieber := TRUE;
+(* TODO: Insert Program *)
+END_STEP
+(* @SFCMAXTIME := '' *)
+(* @SFCMINTIME := '' *)
+(* @SFCCOMMENT := '' *)
+TRANSITION FROM Montage2 TO Position3:=
+xiTripod_fertig2
+END_TRANSITION
+(* @SFCNOJUMP := 'Position3' *)
+STEP Position3:
+(* @LANGUAGE := 'st' *)
+xoSchieber := TRUE;
+(* TODO: Insert Program *)
+END_STEP
+(* @SFCMAXTIME := '' *)
+(* @SFCMINTIME := 't#6s' *)
+(* @SFCCOMMENT := '' *)
+ENTRY_ACTION
+(* @LANGUAGE := 'st' *)
+xoBand := TRUE;
+
+END_ACTION
+EXIT_ACTION
+(* @LANGUAGE := 'st' *)
+xoBand := FALSE;
+END_ACTION
+TRANSITION FROM Position3 TO Montage3:=
+TRUE
+END_TRANSITION
+(* @SFCNOJUMP := 'Montage3' *)
+STEP Montage3:
+(* @LANGUAGE := 'st' *)
+xoSchieber := TRUE;
+(* TODO: Insert Program *)
+END_STEP
+(* @SFCMAXTIME := '' *)
+(* @SFCMINTIME := '' *)
+(* @SFCCOMMENT := '' *)
+TRANSITION FROM Montage3 TO Zurueck:=
+xiTripod_fertig3
+END_TRANSITION
+(* @SFCNOJUMP := 'Zurueck' *)
+STEP Zurueck:
+(* @LANGUAGE := 'st' *)
+xoSchieber := TRUE;
+(* TODO: Insert Program *)
+END_STEP
+(* @SFCMAXTIME := '' *)
+(* @SFCMINTIME := 't#10s' *)
+(* @SFCCOMMENT := '' *)
+ENTRY_ACTION
+(* @LANGUAGE := 'st' *)
+xoBandumkehr := TRUE;
+xoBand :=TRUE;
+END_ACTION
+EXIT_ACTION
+(* @LANGUAGE := 'st' *)
+xoBand := FALSE;
+xoBandumkehr := FALSE;
+END_ACTION
+TRANSITION FROM Zurueck TO Schieber:=
+TRUE
+END_TRANSITION
+(* @SFCISJUMP := 'Schieber' *)
+END_PROGRAM

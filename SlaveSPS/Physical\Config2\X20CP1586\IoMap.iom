@@ -1,0 +1,10 @@
+VAR_CONFIG
+	::Band:xiStopp2 AT %IX."X20DID371".DigitalInput01;
+	::Band:xiStopp1 AT %IX."X20DID371".DigitalInput02;
+	::Band:xiTripod_fertig AT %IX."X20DID371".DigitalInput03;
+	::Band:xoBandumkehr AT %QX."X20DOD322".DigitalOutput01;
+	::Band:xoBand AT %QX."X20DOD322".DigitalOutput02;
+	::Band:ioBandgeschwindigkeit AT %QW."X20AO4622".AnalogOutput01;
+	::Band:xiSchieber AT %IX."X20DID371".DigitalInput04;
+	::Band:xoSchieber AT %QX."X20DOD322".DigitalOutput04;
+END_VAR

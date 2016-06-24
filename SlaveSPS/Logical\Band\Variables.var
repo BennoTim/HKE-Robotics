@@ -1,0 +1,14 @@
+VAR
+	xiSchieber : BOOL;
+	xiTripod_fertig : BOOL;
+	xiStopp1 : BOOL;
+	xiStopp2 : BOOL;
+	xiStopp3 : BOOL;
+	xoSchieber : BOOL;
+	xoBand : BOOL;
+	xoBandumkehr : BOOL;
+	ioBandgeschwindigkeit : INT;
+	dummy : BOOL;
+	xiTripod_fertig2 : BOOL;
+	xiTripod_fertig3 : BOOL;
+END_VAR

@@ -1,0 +1,24 @@
+VAR
+	Step1:BOOL:=FALSE;
+	_Step1:BOOL:=TRUE;
+	Schieber:BOOL:=FALSE;
+	_Schieber:BOOL:=FALSE;
+	Position1:BOOL:=FALSE;
+	_Position1:BOOL:=FALSE;
+	Montage1:BOOL:=FALSE;
+	_Montage1:BOOL:=FALSE;
+	Position2:BOOL:=FALSE;
+	_Position2:BOOL:=FALSE;
+	Montage2:BOOL:=FALSE;
+	_Montage2:BOOL:=FALSE;
+	Position3:BOOL:=FALSE;
+	_Position3:BOOL:=FALSE;
+	_timePosition3:TIME:=T#0ms;
+	_starttimePosition3:TIME:=T#0ms;
+	Montage3:BOOL:=FALSE;
+	_Montage3:BOOL:=FALSE;
+	Zurueck:BOOL:=FALSE;
+	_Zurueck:BOOL:=FALSE;
+	_timeZurueck:TIME:=T#0ms;
+	_starttimeZurueck:TIME:=T#0ms;
+END_VAR

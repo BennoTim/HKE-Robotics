@@ -1,0 +1,1 @@
+Band	"$(AS_CPU_PATH)/Band/Band.ox" -o "$(AS_CPU_PATH)/Band.br" -v V1.00.0 -f "$(AS_CPU_PATH)/NT.ofs" -offsetLT "$(AS_BINARIES_PATH)/$(AS_CONFIGURATION)/$(AS_PLC)/LT.ofs" -T SG4  -M IA32  -B D4.24 -extConstants -d "runtime: V* - V*,asieccon: V* - V*" -r Cyclic1 -p 2 -s "Band"

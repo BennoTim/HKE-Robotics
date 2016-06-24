@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.2.4.149"?>
+<Objects>
+  <Object
+    Path="C:\projects_MASTER\SlaveSPS\Logical\Package.pkg"
+    LogicalPath=""
+    Type="Package"
+    LastWriteTime="131112067813872926" />
+  <Object
+    Path="C:\projects_MASTER\SlaveSPS\Logical\Global.typ"
+    LogicalPath="Global.typ"
+    Type="File"
+    LastWriteTime="131111717140000000"
+    Private="false" />
+  <Object
+    Path="C:\projects_MASTER\SlaveSPS\Logical\Global.var"
+    LogicalPath="Global.var"
+    Type="File"
+    LastWriteTime="131112244637896682"
+    Private="false" />
+  <Object
+    Path="C:\projects_MASTER\SlaveSPS\Logical\Libraries\Package.pkg"
+    LogicalPath="Libraries"
+    Type="Package"
+    LastWriteTime="131111717160000000" />
+  <Object
+    Path="C:\projects_MASTER\SlaveSPS\Logical\Libraries\operator\Binary.lby"
+    LogicalPath="Libraries.operator"
+    Type="Library"
+    LastWriteTime="131111717140000000" />
+  <Object
+    Path="C:\projects_MASTER\SlaveSPS\Logical\Libraries\operator\operator.fun"
+    LogicalPath="Libraries.operator.operator.fun"
+    Type="File"
+    LastWriteTime="131111717140000000"
+    Private="false" />
+  <Object
+    Path="C:\projects_MASTER\SlaveSPS\Logical\Libraries\operator\operator.typ"
+    LogicalPath="Libraries.operator.operator.typ"
+    Type="File"
+    LastWriteTime="131111717140000000"
+    Private="false" />
+  <Object
+    Path="C:\projects_MASTER\SlaveSPS\Logical\Libraries\operator\operator.var"
+    LogicalPath="Libraries.operator.operator.var"
+    Type="File"
+    LastWriteTime="131111717140000000"
+    Private="false" />
+  <Object
+    Path="C:\projects_MASTER\SlaveSPS\Logical\Libraries\runtime\Binary.lby"
+    LogicalPath="Libraries.runtime"
+    Type="Library"
+    LastWriteTime="131111717160000000" />
+  <Object
+    Path="C:\projects_MASTER\SlaveSPS\Logical\Libraries\runtime\runtime.fun"
+    LogicalPath="Libraries.runtime.runtime.fun"
+    Type="File"
+    LastWriteTime="131111717160000000"
+    Private="false" />
+  <Object
+    Path="C:\projects_MASTER\SlaveSPS\Logical\Libraries\runtime\runtime.typ"
+    LogicalPath="Libraries.runtime.runtime.typ"
+    Type="File"
+    LastWriteTime="131111717160000000"
+    Private="false" />
+  <Object
+    Path="C:\projects_MASTER\SlaveSPS\Logical\Libraries\runtime\runtime.var"
+    LogicalPath="Libraries.runtime.runtime.var"
+    Type="File"
+    LastWriteTime="131111717160000000"
+    Private="false" />
+  <Object
+    Path="C:\projects_MASTER\SlaveSPS\Logical\Libraries\astime\Binary.lby"
+    LogicalPath="Libraries.astime"
+    Type="Library"
+    LastWriteTime="131111717160000000" />
+  <Object
+    Path="C:\projects_MASTER\SlaveSPS\Logical\Libraries\astime\astime.fun"
+    LogicalPath="Libraries.astime.astime.fun"
+    Type="File"
+    LastWriteTime="131111717160000000"
+    Private="false" />
+  <Object
+    Path="C:\projects_MASTER\SlaveSPS\Logical\Libraries\astime\astime.typ"
+    LogicalPath="Libraries.astime.astime.typ"
+    Type="File"
+    LastWriteTime="131111717160000000"
+    Private="false" />
+  <Object
+    Path="C:\projects_MASTER\SlaveSPS\Logical\Libraries\astime\astime.var"
+    LogicalPath="Libraries.astime.astime.var"
+    Type="File"
+    LastWriteTime="131111717160000000"
+    Private="false" />
+  <Object
+    Path="C:\projects_MASTER\SlaveSPS\Logical\Libraries\AsIecCon\Binary.lby"
+    LogicalPath="Libraries.AsIecCon"
+    Type="Library"
+    LastWriteTime="131111717160000000" />
+  <Object
+    Path="C:\projects_MASTER\SlaveSPS\Logical\Libraries\AsIecCon\AsIecCon.fun"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.fun"
+    Type="File"
+    LastWriteTime="131111717160000000"
+    Private="false" />
+  <Object
+    Path="C:\projects_MASTER\SlaveSPS\Logical\Libraries\AsIecCon\AsIecCon.typ"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.typ"
+    Type="File"
+    LastWriteTime="131111717160000000"
+    Private="false" />
+  <Object
+    Path="C:\projects_MASTER\SlaveSPS\Logical\Libraries\AsIecCon\AsIecCon.var"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.var"
+    Type="File"
+    LastWriteTime="131111717160000000"
+    Private="false" />
+  <Object
+    Path="C:\projects_MASTER\SlaveSPS\Logical\Band\IEC.prg"
+    LogicalPath="Band"
+    Type="Program"
+    LastWriteTime="131111736340000000" />
+  <Object
+    Path="C:\projects_MASTER\SlaveSPS\Logical\Band\Cyclic.sfc"
+    LogicalPath="Band.Cyclic.sfc"
+    Type="File"
+    LastWriteTime="131112267796781294"
+    Private="false" />
+  <Object
+    Path="C:\projects_MASTER\SlaveSPS\Logical\Band\Types.typ"
+    LogicalPath="Band.Types.typ"
+    Type="File"
+    LastWriteTime="131111736340000000"
+    Private="true" />
+  <Object
+    Path="C:\projects_MASTER\SlaveSPS\Logical\Band\Variables.var"
+    LogicalPath="Band.Variables.var"
+    Type="File"
+    LastWriteTime="131112086716244080"
+    Private="true" />
+  <Object
+    Path="C:\projects_MASTER\SlaveSPS\Physical\Config2\Config.pkg"
+    LogicalPath="Config2"
+    Type="Configuration"
+    LastWriteTime="131112232750186743" />
+  <Object
+    Path="C:\projects_MASTER\SlaveSPS\Physical\Config2\Hardware.hw"
+    LogicalPath="Config2.Hardware.hw"
+    Type="File"
+    LastWriteTime="131112241240852382"
+    Private="false" />
+  <Object
+    Path="C:\projects_MASTER\SlaveSPS\Physical\Config2\Hardware.hwl"
+    LogicalPath="Config2.Hardware.hwl"
+    Type="File"
+    LastWriteTime="130844537380000000"
+    Private="false" />
+  <Object
+    Path="C:\projects_MASTER\SlaveSPS\Physical\Config2\X20CP1586\Cpu.pkg"
+    LogicalPath="Config2.X20CP1586"
+    Type="Cpu"
+    LastWriteTime="131112232442669154" />
+  <Object
+    Path="C:\projects_MASTER\SlaveSPS\Physical\Config2\X20CP1586\Cpu.sw"
+    LogicalPath="Config2.X20CP1586.Cpu.sw"
+    Type="File"
+    LastWriteTime="131112242522045662"
+    Private="false" />
+  <Object
+    Path="C:\projects_MASTER\SlaveSPS\Physical\Config2\X20CP1586\Cpu.per"
+    LogicalPath="Config2.X20CP1586.Cpu.per"
+    Type="File"
+    LastWriteTime="131112232440609037"
+    Private="false" />
+  <Object
+    Path="C:\projects_MASTER\SlaveSPS\Physical\Config2\X20CP1586\IoMap.iom"
+    LogicalPath="Config2.X20CP1586.IoMap.iom"
+    Type="File"
+    LastWriteTime="131112286855181372"
+    Private="false" />
+  <Object
+    Path="C:\projects_MASTER\SlaveSPS\Physical\Config2\X20CP1586\PvMap.vvm"
+    LogicalPath="Config2.X20CP1586.PvMap.vvm"
+    Type="File"
+    LastWriteTime="131112232440749045"
+    Private="false" />
+  <Object
+    Path="C:\projects_MASTER\SlaveSPS\Physical\Config2\X20CP1586\mapp\Package.pkg"
+    LogicalPath="Config2.X20CP1586.mapp"
+    Type="Package"
+    LastWriteTime="131112232441959114" />
+  <Object
+    Path="C:\projects_MASTER\SlaveSPS\Physical\Config2\X20CP1586\UserRoleSystem\Package.pkg"
+    LogicalPath="Config2.X20CP1586.UserRoleSystem"
+    Type="Package"
+    LastWriteTime="131112232442599150" />
+  <Object
+    Path="C:\projects_MASTER\SlaveSPS\Physical\Config2\X20CP1586\UserRoleSystem\Role.role"
+    LogicalPath="Config2.X20CP1586.UserRoleSystem.Role.role"
+    Type="File"
+    LastWriteTime="131112232442459142"
+    Private="false" />
+  <Object
+    Path="C:\projects_MASTER\SlaveSPS\Physical\Config2\X20CP1586\UserRoleSystem\User.user"
+    LogicalPath="Config2.X20CP1586.UserRoleSystem.User.user"
+    Type="File"
+    LastWriteTime="131112232442539147"
+    Private="false" />
+  <Object
+    Path="C:\projects_MASTER\SlaveSPS\Physical\Config2\Hardware.jpg"
+    LogicalPath="Config2.Hardware.jpg"
+    Type="File"
+    LastWriteTime="131112232820880787"
+    Private="false" />
+  <Object
+    Path="C:\projects_MASTER\SlaveSPS\Logical\Libraries\AsIecCon\SG4\AsIecCon.h"
+    LogicalPath="AsIecCon.h"
+    Type="File"
+    LastWriteTime="130905948900000000"
+    Private="false" />
+  <Object
+    Path="C:\projects_MASTER\SlaveSPS\Logical\Libraries\astime\SG4\astime.h"
+    LogicalPath="astime.h"
+    Type="File"
+    LastWriteTime="130905948940000000"
+    Private="false" />
+  <Object
+    Path="C:\projects_MASTER\SlaveSPS\Logical\Libraries\operator\SG4\operator.h"
+    LogicalPath="operator.h"
+    Type="File"
+    LastWriteTime="130905948980000000"
+    Private="false" />
+  <Object
+    Path="C:\projects_MASTER\SlaveSPS\Logical\Libraries\runtime\SG4\runtime.h"
+    LogicalPath="runtime.h"
+    Type="File"
+    LastWriteTime="130905948980000000"
+    Private="false" />
+</Objects>

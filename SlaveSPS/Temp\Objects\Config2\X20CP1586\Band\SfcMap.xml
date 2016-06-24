@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<Monitor>
+<InputFile>C:/projects_MASTER/SlaveSPS/Logical/Band/Cyclic.sfc</InputFile>
+<OutputFile>C:/projects_MASTER/SlaveSPS/Temp/Objects/Config2/X20CP1586/Band/Cyclic.sfc.o</OutputFile>
+<MainSFC>
+<STEP00002 NAME="Step1" CYCLIC="3"/>
+<STEP00004 NAME="Schieber" ENTRY="4" EXIT="5"/>
+<STEP00006 NAME="Position1" ENTRY="6" EXIT="7"/>
+<STEP00010 NAME="Position2" ENTRY="8" EXIT="9"/>
+<STEP00014 NAME="Position3" ENTRY="10" EXIT="11"/>
+<STEP00018 NAME="Zurueck" ENTRY="12" EXIT="13"/>
+</MainSFC>
+</Monitor>
